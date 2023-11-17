@@ -1,0 +1,25 @@
+.block {
+    color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    h2 {
+        text-shadow: 0 0 10px black;
+    }
+
+    button {
+        margin: 12px;
+    }
+
+    a {
+        margin: 12px;
+    }
+}
+
+.card-action {
+    display: grid !important;
+    place-items: center;
+    align-content: center;
+    color: white;
+}
