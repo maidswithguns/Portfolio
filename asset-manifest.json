@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.63b34bd7.css",
-    "main.js": "/portfolio/static/js/main.61a23806.js",
-    "static/js/787.f53c891a.chunk.js": "/portfolio/static/js/787.f53c891a.chunk.js",
-    "static/media/Kurumi.png": "/portfolio/static/media/Kurumi.06f6471a3dcf97fefcdf.png",
-    "static/media/date-a-bullet.png": "/portfolio/static/media/date-a-bullet.2b64adc73d6dd7d563be.png",
-    "static/media/Screenshot_2.png": "/portfolio/static/media/Screenshot_2.fc19c699b075825438fb.png",
-    "static/media/Screenshot_1.png": "/portfolio/static/media/Screenshot_1.ecc4d248e1ccbddec786.png",
-    "static/media/Screenshot_3.png": "/portfolio/static/media/Screenshot_3.d89b74088cf6539711ed.png",
-    "static/media/Screenshot_4.png": "/portfolio/static/media/Screenshot_4.db58218dd73185d6911a.png",
-    "static/media/Screenshot_5.png": "/portfolio/static/media/Screenshot_5.de876b801d8c015b1a6e.png",
-    "static/media/Screenshot_6.png": "/portfolio/static/media/Screenshot_6.65d2a9646eacf08a8d7d.png",
-    "index.html": "/portfolio/index.html",
-    "main.63b34bd7.css.map": "/portfolio/static/css/main.63b34bd7.css.map",
-    "main.61a23806.js.map": "/portfolio/static/js/main.61a23806.js.map",
-    "787.f53c891a.chunk.js.map": "/portfolio/static/js/787.f53c891a.chunk.js.map"
+    "main.css": "/static/css/main.63b34bd7.css",
+    "main.js": "/static/js/main.f4e0f367.js",
+    "static/js/787.f53c891a.chunk.js": "/static/js/787.f53c891a.chunk.js",
+    "static/media/Kurumi.png": "/static/media/Kurumi.06f6471a3dcf97fefcdf.png",
+    "static/media/date-a-bullet.png": "/static/media/date-a-bullet.2b64adc73d6dd7d563be.png",
+    "static/media/Screenshot_2.png": "/static/media/Screenshot_2.fc19c699b075825438fb.png",
+    "static/media/Screenshot_1.png": "/static/media/Screenshot_1.ecc4d248e1ccbddec786.png",
+    "static/media/Screenshot_3.png": "/static/media/Screenshot_3.d89b74088cf6539711ed.png",
+    "static/media/Screenshot_4.png": "/static/media/Screenshot_4.db58218dd73185d6911a.png",
+    "static/media/Screenshot_5.png": "/static/media/Screenshot_5.de876b801d8c015b1a6e.png",
+    "static/media/Screenshot_6.png": "/static/media/Screenshot_6.65d2a9646eacf08a8d7d.png",
+    "index.html": "/index.html",
+    "main.63b34bd7.css.map": "/static/css/main.63b34bd7.css.map",
+    "main.f4e0f367.js.map": "/static/js/main.f4e0f367.js.map",
+    "787.f53c891a.chunk.js.map": "/static/js/787.f53c891a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.63b34bd7.css",
-    "static/js/main.61a23806.js"
+    "static/js/main.f4e0f367.js"
   ]
 }
