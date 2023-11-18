@@ -30,14 +30,6 @@ const Block = (props) => {
 
     const blockExpanded = () => {
         return (
-            <motion.div
-                variants={{
-                    hidden: {opacity: 0},
-                    visible: {opacity: 1}
-                }}
-                initial="hidden"
-                animate="visible"
-                transition={{duration: 0.5}}>
             <div className={'col s12 scale-transition ' + props.color}>
                 <motion.div
                 variants={{
@@ -51,11 +43,18 @@ const Block = (props) => {
                     {props.children}
                 </motion.div>
             </div>
-            </motion.div>
         )
     }
     
     return (
+    <motion.div
+        variants={{
+            hidden: {translateX: 500, opacity: 0},
+            visible: {translateX: 0, opacity: 1}
+        }}
+        initial="hidden"
+        animate="visible"
+        transition={{duration: 0.5, ease: 'circOut'}}>
     <div className="row">
         <div className='col card' style={{...backgroundStyle, padding: 0}}>
             <div className='block'>
@@ -66,6 +65,7 @@ const Block = (props) => {
                     <h2>{props.title}</h2>
                     <p>{props.description}</p>
                     <br />
+                    <p>発売日: {props.launchDate ?? 'なし'}</p>
                     <button className={"waves-effect waves-light btn " + props.color} onClick={toggleIsExpanded}><i className="material-icons right">info</i>もっと知る</button>
                     <a className={"waves-effect waves-light btn " + props.color} href={props.gameLink} target="_blank" rel="noreferrer" style={{display: props.gameLink !== undefined ? '' : 'none'}}>
                         <i className="material-icons right">chevron_right</i>公式ページへ</a>
@@ -74,6 +74,7 @@ const Block = (props) => {
             {isExpanded ? blockExpanded() : ''}
         </div>
     </div>
+    </motion.div>
     )
 }
 
