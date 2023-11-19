@@ -10,7 +10,7 @@ const Block = (props) => {
       };
     
     const backgroundStyle = {
-        backgroundImage: `linear-gradient(rgba(0, 0, 0, .5), rgba(50, 0, 0, 1)), url(${props.backgroundImage})`
+        backgroundImage: `linear-gradient(rgba(0, 0, 0, .5), ${props.backgroundGradientColor ?? 'rgba(50, 0, 0, 1)'}), url(${props.backgroundImage})`
     }
 
     const ref = useRef(null);
@@ -56,7 +56,7 @@ const Block = (props) => {
         animate="visible"
         transition={{duration: 0.5, ease: 'circOut'}}>
     <div className="row">
-        <div className='col card' style={{...backgroundStyle, padding: 0}}>
+        <div className='col card' style={{...backgroundStyle, padding: 0, width:"100%"}}>
             <div className='block'>
                 <div className="card-image col l4 s12">
                     <img src={props.image} alt='' />
