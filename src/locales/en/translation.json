@@ -1,0 +1,19 @@
+{
+    "title": "MaidsWithGuns' Portfolio",
+    "welcomeMessage": "Welcome to my portfolio! I am a game programmer/generalist",
+    "Date a Bullet": {
+        "title": "Date A Bullet Fan Game",
+        "description": "This game is unofficial and has no affiliation with Kadokawa or the \"Date A Live\" / \"Date A Bullet\" group. Over the past year, I have been developing \"Date A Bullet\" as a game creator alongside @Randamu3DModels as a 3D modeler. I am responsible for the programming, animation, design, etc., but the song and character design of Kurumi Tokisaki are not my creations. \"Date A Bullet\" is built using the Unity game engine and is an hack-and-slash 3D action game.",
+        "subtitle": "Game Screenshots",
+        "p1": "Date A Bullet is a frenetic action game based on games like Devil May Cry and Yakuza, focusing on combos. The goal is to provide an enjoyable game experience while following the light novel's story. Currently in the prototype stage, it is playable on itch.io. Feedback from players has been very positive, with optimizations already in place.",
+        "label1": "There is a gameplay video captured by 'Speeze' on November 18, 2023, but its content is outdated.",
+        "subtitle2": "Game Mechanics",
+        "p2": "The game incorporates elements of rock-paper-scissors throughout the gameplay. Players can use fast attacks against distant enemies, long-range attacks against heavy enemies, and heavy attacks against fast enemies.",
+        "p3": "Various systems are implemented to provide a more complex gameplay experience, including dash, aiming, charge attacks, poise, and a combo system. Each gameplay style offers rewards in different ways.",
+        "p4": "Additionally, there's a 'special bullet' system for Kurumi, utilizing Zaphkiel's power to affect herself or enemies. To activate these special bullets, players need to defeat enemies and fill up a time bar. Special bullets have effects like healing, speed boost, clone creation, and time stop.",
+        "p5": "The game also features a record-based upgrade and reward system.",
+        "subtitle3": "Kurumi Tokisaki's 3D Model",
+        "p6": "This temporary model was created using Vroid and it's planned to be changed later.",
+        "subtitle4": "Animations/Effects/Sound Design"
+    }
+}

@@ -16,6 +16,7 @@ import kurumi_s3 from './kurumi_s3.png';
 import anim1 from './anim1.mp4';
 import anim2 from './anim2.mp4';
 import anim3 from './anim3.mp4';
+import { useTranslation } from "react-i18next";
 
 const DateABulletBlock = () => {
     useEffect(() => {
@@ -24,18 +25,19 @@ const DateABulletBlock = () => {
         M.Materialbox.init(materialBox);
       }, []);
 
+    const { t } = useTranslation();
+
     return (
         <Block
-            title="デート・ア・バレット 同人ゲーム"
-            description="このゲームは正式ではないし角川会社と「デート・ア・ライブ」/「デート・ア・バレット」」団体と関係ありません。一年間で、私は、ゲームクレアタスとして、@Randamu3DModelsと、3Dモデラーとして、「デート・ア・バレット」を発展中です。 プログラミングとか、アニメーションとか、デサイーとか、私が作りましたてでも、歌とか時崎狂三のキャラクターデザインは私の創作ございません。
-            「デート・ア・バレット」はUnityのゲームエンジン作りているて、アクションハックアンドスラッシュの3Dゲームです。"
+            title={t('Date a Bullet.title')}
+            description={t('Date a Bullet.description')}
             image={kurumi}
             backgroundImage={background}
             gameLink="https://maidswithguns.itch.io/date-a-bullet-fan-game"
             color="red darken-4"
         >
-            <h3>デート・ア・バレット 同人ゲーム</h3>
-            <h4>ゲームのスクリーンショット</h4>
+            <h3>{t('Date a Bullet.title')}</h3>
+            <h4>{t('Date a Bullet.subtitle')}</h4>
             <div className="row">
                 <div className="col l2 s6">
                     <img className="materialboxed" width="100%" src={sc1} alt="Screenshot1"></img>
@@ -56,26 +58,26 @@ const DateABulletBlock = () => {
                     <img className="materialboxed" width="100%" src={sc6} alt="Screenshot6"></img>
                 </div>
             </div>
-            <p>デート・ア・バレットは、デビル メイ クライや龍が如くのようなゲームを基にした、コンボによるフレンティックなアクションゲームです。目標はライトノベルのストーリーに従いつつ、ユーザーに楽しいゲームを提供することです。現在はプロトタイプの段階で、itch.ioでプレイ可能です。これまでにプレイした人々からのフィードバックは非常に好評で、最適化もされているとのことです。</p>
+            <p>{t('Date a Bullet.p1')}</p>
 
                 <iframe className="full-width-video" id="date-a-bullet-video-yt" src="//www.youtube.com/embed/UisCWG0ivc0" frameborder="0" allowfullscreen="true" title="Date a Bullet Gameplay video"></iframe>
-                <label style={{color:"white"}} for="date-a-bullet-video-yt">2023年11月18日に "Speeze" によって撮影されたゲームプレイ動画がありますが、内容は古いものです。</label>
+                <label style={{color:"white"}} for="date-a-bullet-video-yt">{t('Date a Bullet.label1')}</label>
 
 
-            <h4>ゲームの仕組み</h4>
+            <h4>{t('Date a Bullet.subtitle2')}</h4>
             <div className="row">
                 <div className="col l4 s12">
                     <img className="materialboxed" width="100%" src={game_structure} alt="game_structure"></img>
                 </div>
                 <div className="col l8 s12">
-                    <p>ゲームプレイ全体にじゃん拳の要素が組み込まれています。プレイヤーは遠距離の敵に対して速い攻撃、重い敵に対しては遠距離攻撃、速い敵に対しては重い攻撃を使用することができます。</p>
-                    <p>ダッシュ、照準、チャージ攻撃、ポイズ、コンボシステムなど、より複雑なゲームプレイを提供するさまざまなシステムが実装されています。各ゲームプレイスタイルは異なる方法で報酬が得られます。</p>
-                    <p>また、クルミには「特殊な弾」のシステムもあり、ザフキエルの力を使って、自分や敵に効果を与えることができます。この特殊な弾を発動するには、敵を倒してタイムバーを充填する必要があります。特殊な弾には回復、速さ向上、クローン生成、時間停止などさまざまな効果があります。</p>
-                    <p>ゲームには記録に基づいたアップグレードと報酬のシステムも組み込まれています。</p>
+                    <p>{t('Date a Bullet.p2')}</p>
+                    <p>{t('Date a Bullet.p3')}</p>
+                    <p>{t('Date a Bullet.p4')}</p>
+                    <p>{t('Date a Bullet.p5')}</p>
                     <iframe id="date-a-bullet-new-video-yt" src="//www.youtube.com/embed/jQtpt2cRZ4o" frameborder="0" allowfullscreen="true" title="Date a Bullet Gameplay video new"></iframe>
                 </div>
             </div>
-            <h4>時崎狂三の3Dモデル</h4>
+            <h4>{t('Date a Bullet.subtitle3')}</h4>
             <div className="row">
                 <div className="col s4">
                     <img className="materialboxed" width="100%" src={kurumi_s3} alt="Kurumi Screenshot 3"></img>
@@ -87,8 +89,8 @@ const DateABulletBlock = () => {
                     <img className="materialboxed" width="100%" src={kurumi_s2} alt="Kurumi Screenshot 2"></img>
                 </div>
             </div>
-            <p>この一時的なモデルは、vroidを使用して作成されましたが、後で変更される予定です。</p>
-            <h4>アニメーション/エフェクツ/舞台音響</h4>
+            <p>{t('Date a Bullet.p6')}</p>
+            <h4>{t('Date a Bullet.subtitle4')}</h4>
             <div className="row">
                 <video className="responsive-video col s12 l4" controls>
                     <source src={anim1} type="video/mp4" />
