@@ -1,6 +1,12 @@
 {
     "title": "MaidsWithGuns' Portfolio",
     "welcomeMessage": "Welcome to my portfolio! I am a game programmer/generalist",
+    "Block": {
+        "launchDate": "Launch Date:",
+        "none": "None",
+        "info": "Details",
+        "officialPage": "Official Page"
+    },
     "Date a Bullet": {
         "title": "Date a Bullet Fan Game",
         "description": "This game is unofficial and has no affiliation with Kadokawa or the \"Date A Live\" / \"Date A Bullet\" group. Over the past year, I have been developing \"Date A Bullet\" as a game creator alongside @Randamu3DModels as a 3D modeler. I am responsible for the programming, animation, design, etc., but the song and character design of Kurumi Tokisaki are not my creations. \"Date A Bullet\" is built using the Unity game engine and is an hack-and-slash 3D action game.",
@@ -15,5 +21,40 @@
         "subtitle3": "Kurumi Tokisaki's 3D Model",
         "p6": "This temporary model was created using Vroid and it's planned to be changed later.",
         "subtitle4": "Animations/Effects/Sound Design"
-    }
+    },
+    "Bakutara Bokaam": {
+        "title": "Bakutara Bokaam!!",
+        "description": "This is the first game I created while leading a team. I also guided others to work on the game. It's a free and simple game made in 2 weeks, but the assets are sold separately. @Randamu3dModels handled the 3D models for Bakutara, @bigscaryindian was responsible for the game's music, and I handled everything else. This was a project based on the idea of creating something playable from start to finish, and it can be played online.",
+        "subtitle": "Game Screenshots",
+        "p1": "The gameplay is simple: bombs appear, and the goal is to keep them divided between red and black for as long as possible. You can use scores to customize Bakutara.",
+        "label1": "The gameplay video was recorded by 'Legend' on July 29, 2023.",
+        "subtitle2": "Game Illustrations and Concept Art",
+        "p2": "I also created illustrations and concept art for the game."
+    },
+    "Unusual Scientist": {
+        "title": "Unusual Scientist",
+        "description": "A game created solo for a game jam in less than 5 days. It is playable online.",
+        "subtitle": "Game Screenshots",
+        "p1": "It's a simple top-down game with arcade-style gameplay based on scores. Players play as a scientist defeating zombies and obtaining upgrades and different weapons."
+    },
+    "Broken Bones": {
+        "title": "Broken Bones",
+        "description": "This is my first commercial release. It's a mobile game with simple gameplay and 30 levels. It was created in 3 weeks. It has already achieved over 1000 downloads and can be downloaded for free from the Play Store.",
+        "subtitle": "Game Screenshots",
+        "p1": "The objective is to navigate through the levels on a bike, collecting three additional stars on each level without hitting your head on the ground. Using these stars, players can customize characters and bikes, and even unlock additional levels. The average rating for Broken Bones on the Play Store is 4.3."
+    },
+    "Multiplayer Project": {
+        "title": "Multiplayer Project",
+        "description": "The Multiplayer Project was designed to learn about creating more sophisticated games and structures. It was the final presentation project for a multimedia course. Through this project, I learned about scaling projects, implementing multiplayer using Unity and Mirror, and how to implement everything required for a complete game.",
+        "subtitle": "Game Screenshots",
+        "p1": "The main gameplay was an FPS multiplayer with a variety of weapons. Assets from \"HQ FPS Weapons\", \"Subway / Metro / Train station Modular Pack\", and \"Mixamo\" were used. The goal was to understand the functionality of the \"HQ FPS Weapons\" system, replicate it, and then add and modify content to fit my needs. Additionally, realistic assets were created for scenarios like the desert post-apocalyptic setting.",
+        "deletedContentTitle": "Deleted Content",
+        "p2": "There were also keys that provided random items during the game. Zombies were also introduced, and a dismemberment system was implemented. However, all of these were removed and not shown in the trailer."
+    },
+    "Taiko No Tatsujin": {
+        "title": "Taiko no Tatsujin: Scratch Edition",
+        "description": "My first game. It was created from scratch. It's a constrained website designed to learn basic game development. While I didn't complete it, over 5000 people played it. It's a version of the 'Taiko no Tatsujin' game recreated in Scratch.",
+        "subtitle": "Game Screenshots",
+        "p1": "This game is a rather incomplete version of Taiko no Tatsujin made for Scratch. There are also options for customization and music selection."
+    }    
 }

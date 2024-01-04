@@ -9,6 +9,7 @@ import sc3 from './screenshot3.jpg';
 import cover from './cover.png';
 import concept1 from './concept1.png';
 import concept2 from './concept2.png';
+import { useTranslation } from "react-i18next";
 
 const BakutaraBokaam = () => {
     useEffect(() => {
@@ -17,18 +18,20 @@ const BakutaraBokaam = () => {
         M.Materialbox.init(materialBox);
       }, []);
 
+    const { t } = useTranslation();
+
     return (
         <Block
-            title="バクタラ・ボカーン！！"
-            description="私がチームを指揮しながら作成した最初のゲームです。他の人々もゲームで働くように指導しました。2週間で作られた無料でシンプルなゲームですが、アセットは別売りです。@Randamu3dModelsさんは爆タラの3Dモデルを担当し、@bigscaryindianさんはゲームの音楽を担当し、私はその他すべてを担当しました。これは最初から最後までプレイ可能な何かを作るという提案のプロジェクトであり、ウェブでプレイできます。"
+            title={t('Bakutara Bokaam.title')}
+            description={t('Bakutara Bokaam.description')}
             image={thumb}
             backgroundImage={background}
             gameLink="https://maidswithguns.itch.io/bakutara-bokaam"
             color="red darken-4"
             launchDate="28/07/2023"
         >
-            <h2>バクタラ・ボカーン！！</h2>
-            <h3>ゲームのスクリーンショット</h3>
+            <h2>{t('Bakutara Bokaam.title')}</h2>
+            <h3>{t('Bakutara Bokaam.subtitle')}</h3>
             <div className="row">
                 <div className="col l4 s12">
                     <img className="materialboxed" width="100%" src={sc1} alt="Screenshot1"></img>
@@ -40,10 +43,10 @@ const BakutaraBokaam = () => {
                     <img className="materialboxed" width="100%" src={sc3} alt="Screenshot3"></img>
                 </div>
             </div>
-            <p>ゲームプレイはシンプルで、爆弾が現れ、目標はできるだけ長い時間赤と黒に分けてから、スコアを使用して爆タラをカスタマイズすることです。</p>
+            <p>{t('Bakutara Bokaam.p1')}</p>
 
                 <iframe className="full-width-video" id="bakutara-bokaam-video-yt" src="//www.youtube.com/embed/TtDUMnEE_vU" frameborder="0" allowfullscreen="true" title="Bakutara Bokaam Gameplay video"></iframe>
-                <label style={{color:"white"}} for="bakutara-bokaam-video-yt">ゲームプレイの動画は「Legend」によって2023年7月29日に録画されました。</label>
+                <label style={{color:"white"}} for="bakutara-bokaam-video-yt">{t('Bakutara Bokaam.label1')}</label>
 
             <div className="row">
                 <div className="col l4 s6">
@@ -56,7 +59,7 @@ const BakutaraBokaam = () => {
                     <img className="materialboxed" width="100%" src={concept2} alt="concept2"></img>
                 </div>
             </div>
-            <p>また、ゲームのイラストとコンセプトアートも制作しました。</p>
+            <p>{t('Bakutara Bokaam.p2')}</p>
         </Block>
     )
 }

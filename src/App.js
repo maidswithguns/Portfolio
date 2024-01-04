@@ -26,7 +26,7 @@ function App() {
       let star = document.createElement('span');
       star.className = 'star material-symbols-outlined';
       star.innerHTML = 'star';
-      star.style.left = Math.random() * 100 + 'vw';
+      star.style.left = Math.random() * 30 + 'vw';
       star.style.top = Math.random() * 100 + 'vh';
       star.style.fontSize = Math.random() * 10 + 10 + 'px';
       document.querySelector('section.stars').appendChild(star);

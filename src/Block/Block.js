@@ -2,6 +2,7 @@ import './Block.css'
 import { motion, useAnimation, useInView } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
 import M from 'materialize-css/dist/js/materialize.min.js';
+import { useTranslation } from 'react-i18next';
 
 const Block = (props) => {
     const [isExpanded, setIsExpanded] = useState(false);
@@ -45,6 +46,8 @@ const Block = (props) => {
             </div>
         )
     }
+
+    const { t } = useTranslation();
     
     return (
     <motion.div
@@ -65,10 +68,10 @@ const Block = (props) => {
                     <h2><b>{props.title}</b></h2>
                     <p>{props.description}</p>
                     <br />
-                    <p>発売日: {props.launchDate ?? 'なし'}</p>
-                    <button className={"waves-effect waves-light btn " + props.color} onClick={toggleIsExpanded}><i className="material-icons right">info</i>もっと知る</button>
+                    <p>{t('Block.launchDate')} {props.launchDate ?? t('Block.none')}</p>
+                    <button className={"waves-effect waves-light btn " + props.color} onClick={toggleIsExpanded}><i className="material-icons right">info</i>{t('Block.info')}</button>
                     <a className={"waves-effect waves-light btn " + props.color} href={props.gameLink} target="_blank" rel="noreferrer" style={{display: props.gameLink !== undefined ? '' : 'none'}}>
-                        <i className="material-icons right">chevron_right</i>公式ページへ</a>
+                        <i className="material-icons right">chevron_right</i>{t('Block.officialPage')}</a>
                 </div>
             </div>
             {isExpanded ? blockExpanded() : ''}
