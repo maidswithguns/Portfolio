@@ -2,10 +2,10 @@
     "title": "MaidsWithGuns' Portfolio",
     "welcomeMessage": "Welcome to my portfolio! I am a game programmer/generalist",
     "Date a Bullet": {
-        "title": "Date A Bullet Fan Game",
+        "title": "Date a Bullet Fan Game",
         "description": "This game is unofficial and has no affiliation with Kadokawa or the \"Date A Live\" / \"Date A Bullet\" group. Over the past year, I have been developing \"Date A Bullet\" as a game creator alongside @Randamu3DModels as a 3D modeler. I am responsible for the programming, animation, design, etc., but the song and character design of Kurumi Tokisaki are not my creations. \"Date A Bullet\" is built using the Unity game engine and is an hack-and-slash 3D action game.",
         "subtitle": "Game Screenshots",
-        "p1": "Date A Bullet is a frenetic action game based on games like Devil May Cry and Yakuza, focusing on combos. The goal is to provide an enjoyable game experience while following the light novel's story. Currently in the prototype stage, it is playable on itch.io. Feedback from players has been very positive, with optimizations already in place.",
+        "p1": "Date a Bullet is a frenetic action game based on games like Devil May Cry and Yakuza, focusing on combos. The goal is to provide an enjoyable game experience while following the light novel's story. Currently in the prototype stage, it is playable on itch.io. Feedback from players has been very positive, with optimizations already in place.",
         "label1": "There is a gameplay video captured by 'Speeze' on November 18, 2023, but its content is outdated.",
         "subtitle2": "Game Mechanics",
         "p2": "The game incorporates elements of rock-paper-scissors throughout the gameplay. Players can use fast attacks against distant enemies, long-range attacks against heavy enemies, and heavy attacks against fast enemies.",

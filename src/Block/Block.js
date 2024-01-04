@@ -62,7 +62,7 @@ const Block = (props) => {
                     <img src={props.image} alt='' />
                 </div>
                 <div className='card-content col l8 s12'>
-                    <h2>{props.title}</h2>
+                    <h2><b>{props.title}</b></h2>
                     <p>{props.description}</p>
                     <br />
                     <p>発売日: {props.launchDate ?? 'なし'}</p>

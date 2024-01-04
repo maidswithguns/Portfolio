@@ -14,19 +14,46 @@ import M from 'materialize-css/dist/js/materialize.min.js';
 function App() {
   useEffect(() => {
     M.AutoInit();
+
+    var text = document.getElementById('page-title');
+    var shadow = '';
+    for (var i = 0; i < 30; i++) {
+      shadow += (shadow ? ',' : '') + -i * 1 + 'px ' + i * 1 + 'px 0 #bbb';
+    }
+    text.style.textShadow = shadow;
+
+    for (let i = 0; i < 75; i++) {
+      let star = document.createElement('span');
+      star.className = 'star material-symbols-outlined';
+      star.innerHTML = 'star';
+      star.style.left = Math.random() * 100 + 'vw';
+      star.style.top = Math.random() * 100 + 'vh';
+      star.style.fontSize = Math.random() * 10 + 10 + 'px';
+      document.querySelector('section.stars').appendChild(star);
+    }
+
+    function animateStars() {
+      let AllStars = document.querySelectorAll('.star');
+      let num = Math.floor(Math.random() * AllStars.length);
+      AllStars[num].classList.toggle('animated');
+    }
+
+    setInterval(animateStars, 50);
   }, []);
 
   const { t } = useTranslation();
 
   return (
     <div>
-
+      <section className='stars'></section>
       <div className='header'>
-        <h1>{t('title')}</h1>
+        <div id='page-title-holder'>
+          <h1 id="page-title" data-text={t('title')}>{t('title')}</h1>
+        </div>
         <div className='select-language-button'>
           <button className='dropdown-trigger btn' data-target='dropdown1'>Select Language</button>
         </div>
-        <h4>{t('welcomeMessage')}</h4>
+        <h4><b>{t('welcomeMessage')}</b></h4>
       </div>
 
       <ul id='dropdown1' className='dropdown-content'>
