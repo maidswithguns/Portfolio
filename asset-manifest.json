@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.0bd9279b.css",
-    "main.js": "/Portfolio/static/js/main.43d2166c.js",
+    "main.js": "/Portfolio/static/js/main.fe483d06.js",
     "static/js/787.f53c891a.chunk.js": "/Portfolio/static/js/787.f53c891a.chunk.js",
     "static/media/screenshot2.gif": "/Portfolio/static/media/screenshot2.80085d9fa60ee7beb1d5.gif",
     "static/media/sc1.gif": "/Portfolio/static/media/sc1.cb27c141d360497d3e18.gif",
@@ -15,14 +15,23 @@
     "static/media/anim3.mp4": "/Portfolio/static/media/anim3.354d32e8a384c7dfe60f.mp4",
     "static/media/anim4.mp4": "/Portfolio/static/media/anim4.ef6e50394cc83280597f.mp4",
     "static/media/anim1.mp4": "/Portfolio/static/media/anim1.632f75e716bbf91ca345.mp4",
+    "static/media/gif1.gif": "/Portfolio/static/media/gif1.917d8311e06e420024e2.gif",
+    "static/media/gif2.gif": "/Portfolio/static/media/gif2.1ebc0b32676017fc056b.gif",
     "static/media/date-a-bullet.png": "/Portfolio/static/media/date-a-bullet.2b64adc73d6dd7d563be.png",
     "static/media/concept1.png": "/Portfolio/static/media/concept1.a27076a9bd5d905432d8.png",
     "static/media/Screenshot_3.png": "/Portfolio/static/media/Screenshot_3.cb6f3ee209c6cfb5c004.png",
     "static/media/Thumb.png": "/Portfolio/static/media/Thumb.f8b1bf1550489e88cc9c.png",
+    "static/media/screenshot3.jpg": "/Portfolio/static/media/screenshot3.b0e4ce10c817ddea978a.jpg",
+    "static/media/screenshot2.jpg": "/Portfolio/static/media/screenshot2.68044e3b40c2f692f282.jpg",
     "static/media/Screenshot_2.png": "/Portfolio/static/media/Screenshot_2.b9430f965f74f0e4445b.png",
+    "static/media/screenshot5.jpg": "/Portfolio/static/media/screenshot5.48cea7edc18eb8ff542d.jpg",
+    "static/media/screenshot1.jpg": "/Portfolio/static/media/screenshot1.2a89d8444c5ee58e6b00.jpg",
+    "static/media/screenshot4.jpg": "/Portfolio/static/media/screenshot4.e70a563970313817527e.jpg",
+    "static/media/screenshot7.jpg": "/Portfolio/static/media/screenshot7.720b4dc1bedc93486945.jpg",
     "static/media/Screenshot_1.png": "/Portfolio/static/media/Screenshot_1.af33d9f9f51f568ed71b.png",
     "static/media/screenshot3.png": "/Portfolio/static/media/screenshot3.1c499c11fe9ad3fafdb4.png",
     "static/media/concept2.png": "/Portfolio/static/media/concept2.ed765957ed0662a9445b.png",
+    "static/media/screenshot6.jpg": "/Portfolio/static/media/screenshot6.278ffbe9c8884ed73743.jpg",
     "static/media/kurumi_s3.png": "/Portfolio/static/media/kurumi_s3.20672acc65c59c947cfd.png",
     "static/media/kurumi_s2.png": "/Portfolio/static/media/kurumi_s2.10d4734555fb4cbed5e2.png",
     "static/media/kurumi_s1.png": "/Portfolio/static/media/kurumi_s1.079e7527790ac4daf905.png",
@@ -32,11 +41,12 @@
     "static/media/Screenshot_5.png": "/Portfolio/static/media/Screenshot_5.de876b801d8c015b1a6e.png",
     "static/media/background.png": "/Portfolio/static/media/background.056580b4fd1443255f31.png",
     "static/media/screenshot2.png": "/Portfolio/static/media/screenshot2.d7b4961989781b14ce17.png",
-    "static/media/screenshot3.jpg": "/Portfolio/static/media/screenshot3.b0e4ce10c817ddea978a.jpg",
-    "static/media/screenshot1.jpg": "/Portfolio/static/media/screenshot1.2a89d8444c5ee58e6b00.jpg",
-    "static/media/screenshot2.jpg": "/Portfolio/static/media/screenshot2.68044e3b40c2f692f282.jpg",
+    "static/media/Model2.png": "/Portfolio/static/media/Model2.14a737a22f7b431a0994.png",
     "static/media/Screenshot_6.png": "/Portfolio/static/media/Screenshot_6.65d2a9646eacf08a8d7d.png",
     "static/media/sc2.jpg": "/Portfolio/static/media/sc2.ffb45cc1b8948a0fdc64.jpg",
+    "static/media/Icon.png": "/Portfolio/static/media/Icon.b3c219281b274e40936b.png",
+    "static/media/Model3.png": "/Portfolio/static/media/Model3.b8caca4262c68d8baa6a.png",
+    "static/media/Model1.png": "/Portfolio/static/media/Model1.2ae8d3b230954e2407f8.png",
     "static/media/screenshot5.png": "/Portfolio/static/media/screenshot5.97ddc1562cf9e13bbd37.png",
     "static/media/fps.png": "/Portfolio/static/media/fps.f426a9796b56b2334609.png",
     "static/media/sc4.png": "/Portfolio/static/media/sc4.fb21afa02a289450b492.png",
@@ -44,11 +54,11 @@
     "static/media/game_structure.png": "/Portfolio/static/media/game_structure.3e3ca2b7aaa913b402a9.png",
     "index.html": "/Portfolio/index.html",
     "main.0bd9279b.css.map": "/Portfolio/static/css/main.0bd9279b.css.map",
-    "main.43d2166c.js.map": "/Portfolio/static/js/main.43d2166c.js.map",
+    "main.fe483d06.js.map": "/Portfolio/static/js/main.fe483d06.js.map",
     "787.f53c891a.chunk.js.map": "/Portfolio/static/js/787.f53c891a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0bd9279b.css",
-    "static/js/main.43d2166c.js"
+    "static/js/main.fe483d06.js"
   ]
 }
