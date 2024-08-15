@@ -6,6 +6,7 @@ import UnusualScientist from './Block/Unusual Scientist/Unusual Scientist';
 import BrokenBones from './Block/Broken Bones/Broken Bones';
 import MultiplayerProject from './Block/Muliplayer Project/Multiplayer Project';
 import TaikoNoTatsujin from './Block/Taiko No Tatsujin/Taiko No Tatsujin';
+import SPrysmDestroyer from './Block/S Prysm Destroyer/S Prysm Destroyer';
 import { useTranslation } from 'react-i18next';
 import i18n from 'i18next';
 import { useEffect } from 'react';
@@ -54,6 +55,7 @@ function App() {
           <button className='dropdown-trigger btn' data-target='dropdown1'>Select Language</button>
         </div>
         <h4><b>{t('welcomeMessage')}</b></h4>
+        <h5>Contact me: maidswithguns@gmail.com</h5>
       </div>
 
       <ul id='dropdown1' className='dropdown-content'>
@@ -61,6 +63,7 @@ function App() {
           <li><a href="#!" onClick={() => i18n.changeLanguage('jp')}>日本語</a></li>
         </ul>
       <DateABulletBlock />
+      <SPrysmDestroyer />
       <BakutaraBokaam />
       <UnusualScientist />
       <BrokenBones />

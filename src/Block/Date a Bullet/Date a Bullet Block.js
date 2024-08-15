@@ -16,6 +16,9 @@ import kurumi_s3 from './kurumi_s3.png';
 import anim1 from './anim1.mp4';
 import anim2 from './anim2.mp4';
 import anim3 from './anim3.mp4';
+import anim4 from './anim4.mp4';
+import scenario from './scenario.png';
+import fps from './fps.png';
 import { useTranslation } from "react-i18next";
 
 const DateABulletBlock = () => {
@@ -59,11 +62,8 @@ const DateABulletBlock = () => {
                 </div>
             </div>
             <p>{t('Date a Bullet.p1')}</p>
-
-                <iframe className="full-width-video" id="date-a-bullet-video-yt" src="//www.youtube.com/embed/UisCWG0ivc0" frameborder="0" allowfullscreen="true" title="Date a Bullet Gameplay video"></iframe>
-                <label style={{color:"white"}} for="date-a-bullet-video-yt">{t('Date a Bullet.label1')}</label>
-
-
+            <iframe className="full-width-video" id="date-a-bullet-video-yt" src="//www.youtube.com/embed/UisCWG0ivc0" frameborder="0" allowfullscreen="true" title="Date a Bullet Gameplay video"></iframe>
+            <label style={{color:"white"}} for="date-a-bullet-video-yt">{t('Date a Bullet.label1')}</label>
             <h4>{t('Date a Bullet.subtitle2')}</h4>
             <div className="row">
                 <div className="col l4 s12">
@@ -92,16 +92,26 @@ const DateABulletBlock = () => {
             <p>{t('Date a Bullet.p6')}</p>
             <h4>{t('Date a Bullet.subtitle4')}</h4>
             <div className="row">
-                <video className="responsive-video col s12 l4" controls>
+                <video className="responsive-video col s12 l6" controls>
                     <source src={anim1} type="video/mp4" />
                 </video>
-                <video className="responsive-video col s12 l4" controls>
+                <video className="responsive-video col s12 l6" controls>
                     <source src={anim2} type="video/mp4" />
                 </video>
-                <video className="responsive-video col s12 l4" controls>
+                <video className="responsive-video col s12 l6" controls>
                     <source src={anim3} type="video/mp4" />
                 </video>
+                <video className="responsive-video col s12 l6" controls>
+                    <source src={anim4} type="video/mp4" />
+                </video>
             </div>
+            <p>{t('Date a Bullet.p7')}</p>
+            <h4>{t('Date a Bullet.subtitle5')}</h4>
+            <div className="row">
+                <img className="col s12 l6" src={scenario} alt="Game scenario"></img>
+                <img className="col s12 l6" src={fps} alt="Game fps"></img>
+            </div>
+            <p>{t('Date a Bullet.p8')}</p>
         </Block>
     )
 }

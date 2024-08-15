@@ -20,7 +20,10 @@
         "p5": "The game also features a record-based upgrade and reward system.",
         "subtitle3": "Kurumi Tokisaki's 3D Model",
         "p6": "This temporary model was created using Vroid and it's planned to be changed later.",
-        "subtitle4": "Animations/Effects/Sound Design"
+        "subtitle4": "Animations/Effects/Sound Design",
+        "p7": "I used Cascadeur to create the animations and Audacity to create the sound effects.",
+        "subtitle5": "Scenarios",
+        "p8": "I've built this scenario with optimization in mind. It runs at above 100 FPS on a GTX 1050 2gb. The scenario is also designed to be modular, allowing for easy expansion and reuse of assets."
     },
     "Bakutara Bokaam": {
         "title": "Bakutara Bokaam!!",
@@ -56,5 +59,19 @@
         "description": "My first game. It was created from scratch. It's a constrained website designed to learn basic game development. While I didn't complete it, over 5000 people played it. It's a version of the 'Taiko no Tatsujin' game recreated in Scratch.",
         "subtitle": "Game Screenshots",
         "p1": "This game is a rather incomplete version of Taiko no Tatsujin made for Scratch. There are also options for customization and music selection."
-    }    
+    },
+    "S Prysm Destroyer": {
+        "title": "S. Prysm Destroyer",
+        "description": "A contra-style action game with mechas and cute anime girls. From drawings to programing, animation, marketing campaign and publishing was done by me except music. It is playable on Steam, with achievements and Highscore. Features crossovers from Situation Succ and Touhou Project.",
+        "subtitle": "Game Screenshots",
+        "p1": "A 2D platform shooter where you DESTROY!! Get Elemental Powers from the Prysms and help Amor defeat the Primordial Threats agains Humanity! Get cute costumes and be stylish!",
+        "label1": "Video trailer",
+        "subtitle2": "Game Mechanics",
+        "p2": "The game has a simple control scheme, with a focus on fast-paced action. Players can jump, shoot, and use elemental powers to defeat enemies. The game also features a variety of enemies, each with unique attack patterns and weaknesses.",
+        "p3": "It has some unique features where players can get temporary upgrades throughout the levels, a combo system that rewards players with fast paced movement, a jetpack for flying and special 'prysms' in each level that activates a special power for some limited time.",
+        "subtitle3": "3D Models",
+        "subtitle4": "Transformation Animation",
+        "subtitle5": "Gameplay video",
+        "label2": "Video made by 'Twisted Banana Produtions' on build 1.0.3"
+    }  
 }
