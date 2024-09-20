@@ -12,7 +12,7 @@ const Block = (props) => {
     
     const backgroundStyle = {
         backgroundImage: `linear-gradient(rgba(0, 0, 0, .5), ${props.backgroundGradientColor ?? 'rgba(50, 0, 0, 1)'}), url(${props.backgroundImage})`,
-        backgroundSize: '100%',
+        backgroundSize: isExpanded ? '100vw' : 'cover',
     }
 
     const ref = useRef(null);

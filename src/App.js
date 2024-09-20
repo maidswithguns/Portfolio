@@ -11,6 +11,7 @@ import { useTranslation } from 'react-i18next';
 import i18n from 'i18next';
 import { useEffect } from 'react';
 import M from 'materialize-css/dist/js/materialize.min.js';
+import logo from './logo.png';
 
 function App() {
   useEffect(() => {
@@ -47,6 +48,7 @@ function App() {
   return (
     <div>
       <section className='stars'></section>
+      <img src={logo} alt='logo' className='logo' style={{width: '80px', position: 'absolute', padding: '4px'}} />
       <div className='header'>
         <div id='page-title-holder'>
           <h1 id="page-title" data-text={t('title')}>{t('title')}</h1>
