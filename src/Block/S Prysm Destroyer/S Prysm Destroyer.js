@@ -33,6 +33,9 @@ const SPrysmDestroyer = () => {
             image={cover}
             backgroundImage={background}
             gameLink="https://store.steampowered.com/app/2975480/S_Prysm_Destroyer/"
+            nintendoLink="https://store-jp.nintendo.com/item/software/D70010000090102"
+            playstationLink="https://store.playstation.com/ja-jp/concept/10013189/"
+            xboxLink="https://www.xbox.com/ja-JP/games/store/s-prysm-destroyer/9pdxn02twxhs"
             color="orange darken-4"
             backgroundGradientColor="rgba(0, 0, 0, 1)"
             launchDate="26/07/2024"
@@ -94,6 +97,11 @@ const SPrysmDestroyer = () => {
             <h4>{t('S Prysm Destroyer.subtitle5')}</h4>
             <iframe className="full-width-video" id="s-prysm-destroyer-video-yt" src="//www.youtube.com/embed/OTFk9H4Aw6I" frameborder="0" allowfullscreen="true" title="S. Prysm Destroyer Gameplay video"></iframe>
             <label style={{color:"white"}} for="s-prysm-destroyer-video-yt">{t('S Prysm Destroyer.label2')}</label>
+            <h4>{t('S Prysm Destroyer.subtitle6')}</h4>
+            <div className="row">
+                <a className="waves-effect waves-light btn" href="https://www.eastasiasoft.com/games/S-Prysm-Destroyer" target="_blank" rel="noreferrer">Publisher's website</a>
+                <a className="waves-effect waves-light btn" href="https://www.xbox.com/ja-jp/games/store/s-prysm-destroyer/9pdxn02twxhs?rtc=1" target="_blank" rel="noreferrer">Xbox Store</a>
+            </div>
         </Block>
     )
 }

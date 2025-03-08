@@ -17,6 +17,7 @@ import anim1 from './anim1.mp4';
 import anim2 from './anim2.mp4';
 import anim3 from './anim3.mp4';
 import anim4 from './anim4.mp4';
+import anim5 from './anim5.mp4';
 import scenario from './scenario.png';
 import fps from './fps.png';
 import { useTranslation } from "react-i18next";
@@ -112,6 +113,12 @@ const DateABulletBlock = () => {
                 <img className="col s12 l6" src={fps} alt="Game fps"></img>
             </div>
             <p>{t('Date a Bullet.p8')}</p>
+            <h4>{t('Date a Bullet.subtitle6')}</h4>
+            <div className="row">
+                <video className="responsive-video col s12 l12" controls>
+                    <source src={anim5} type="video/mp4" />
+                </video>
+            </div>
         </Block>
     )
 }

@@ -73,6 +73,12 @@ const Block = (props) => {
                     <button className={"waves-effect waves-light btn " + props.color} onClick={toggleIsExpanded}><i className="material-icons right">info</i>{t('Block.info')}</button>
                     <a className={"waves-effect waves-light btn " + props.color} href={props.gameLink} target="_blank" rel="noreferrer" style={{display: props.gameLink !== undefined ? '' : 'none'}}>
                         <i className="material-icons right">chevron_right</i>{t('Block.officialPage')}</a>
+                    <a className={"waves-effect waves-light btn " + props.color} href={props.nintendoLink} target="_blank" rel="noreferrer" style={{display: props.nintendoLink !== undefined ? '' : 'none'}}>
+                        <i className="bi bi-nintendo-switch right"></i>{t('Block.nintendoPage')}</a>
+                    <a className={"waves-effect waves-light btn " + props.color} href={props.playstationLink} target="_blank" rel="noreferrer" style={{display: props.playstationLink !== undefined ? '' : 'none'}}>
+                        <i className="bi bi-playstation right"></i>{t('Block.playstationPage')}</a>
+                    <a className={"waves-effect waves-light btn " + props.color} href={props.xboxLink} target="_blank" rel="noreferrer" style={{display: props.xboxLink !== undefined ? '' : 'none'}}>
+                        <i className="bi bi-xbox right"></i>{t('Block.xboxPage')}</a>
                 </div>
             </div>
             {isExpanded ? blockExpanded() : ''}

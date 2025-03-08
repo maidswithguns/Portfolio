@@ -5,7 +5,10 @@
         "launchDate": "Launch Date:",
         "none": "None",
         "info": "Details",
-        "officialPage": "Official Page"
+        "officialPage": "Official Page",
+        "nintendoPage": "Nintendo Page",
+        "playstationPage": "Playstation Page",
+        "xboxPage": "Xbox Page"
     },
     "Date a Bullet": {
         "title": "Date a Bullet Fan Game",
@@ -23,7 +26,8 @@
         "subtitle4": "Animations/Effects/Sound Design",
         "p7": "I used Cascadeur to create the animations and Audacity to create the sound effects.",
         "subtitle5": "Scenarios",
-        "p8": "I've built this scenario with optimization in mind. It runs at above 100 FPS on a GTX 1050 2gb. The scenario is also designed to be modular, allowing for easy expansion and reuse of assets."
+        "p8": "I've built this scenario with optimization in mind. It runs at above 100 FPS on a GTX 1050 2gb. The scenario is also designed to be modular, allowing for easy expansion and reuse of assets.",
+        "subtitle6": "Tsuan boss fight"
     },
     "Bakutara Bokaam": {
         "title": "Bakutara Bokaam!!",
@@ -72,6 +76,7 @@
         "subtitle3": "3D Models",
         "subtitle4": "Transformation Animation",
         "subtitle5": "Gameplay video",
-        "label2": "Video made by 'Twisted Banana Produtions' on build 1.0.3"
+        "label2": "Video made by 'Twisted Banana Produtions' on build 1.0.3",
+        "subtitle6": "Other Platforms"
     }  
 }
