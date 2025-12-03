@@ -37,7 +37,7 @@ const DateABulletBlock = () => {
             description={t('Date a Bullet.description')}
             image={kurumi}
             backgroundImage={background}
-            gameLink="https://maidswithguns.itch.io/date-a-bullet-fan-game"
+            gameLink="https://web.archive.org/web/20250728173232/https://maidswithguns.itch.io/date-a-bullet-fan-game"
             color="red darken-4"
         >
             <h3>{t('Date a Bullet.title')}</h3>
