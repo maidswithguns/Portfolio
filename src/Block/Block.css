@@ -17,6 +17,11 @@
     }
 }
 
+.block .card-image img {
+    max-height: 500px;
+    object-fit: contain;
+}
+
 .card-action {
     display: grid !important;
     place-items: center;

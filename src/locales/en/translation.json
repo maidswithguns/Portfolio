@@ -29,6 +29,28 @@
         "p8": "I've built this scenario with optimization in mind. It runs at above 100 FPS on a GTX 1050 2gb. The scenario is also designed to be modular, allowing for easy expansion and reuse of assets.",
         "subtitle6": "Tsuan boss fight"
     },
+    "Maid Supremacy": {
+        "title": "Maid Supremacy Demo",
+        "description": "A linear 3D action-shooter with multiplayer and local co-op about drifting tanks, cute female characters, stackable weapons, and proving that maids are better. I am responsible for directing, programming, modeling, etc. Big D. was responsible for the artworks and BigScaryIndian for the music.",
+        "screenshots": "Screenshots",
+        "screenshotsText": "These screenshots show the core visual direction of the game and the kind of action scenarios I built around the tank controls.",
+        "trailer": "Trailer",
+        "trailerLabel": "Maid Supremacy trailer",
+        "mechanics": "Mechanics",
+        "mechanicsText": "The main gameplay mechanics are mobile tank combat, drifting, shooting, weapon stacking, customization and mid-level upgrades. Similar to games like Gears of War, the player can gather friends or play alone, experiencing the levels with 4 different difficulties of combat. Not only the enemy stats change but the amount of enemies do too, making the game more replayable as the tactics needed to complete the level are different.",
+        "cutscenes": "Cutscenes",
+        "cutscenesText": "The cutscenes have dialogue with voice actors I contracted in a visual novel-like visual. They're supposed to be quick and to the point, adding progression and interaction to the levels as to make the game more interesting and dynamic.",
+        "models": "Models",
+        "modelsText": "I made the models using Blender and Materialize. They are made in a sketchy cartoony style as to fit with the artstyle the game tries to convey. The models are also made with their status in mind, showing to the player a level of personality behind them. The workflow allows for it to have mismatched bases, heads and weapon extensions.",
+        "scenery": "Scenery",
+        "sceneryText": "The sceneries are made in such a way that the player can stop and appreciate the view but as to not disturb the action. They also run very easily in almost modern or even 10 year old computer, focusing on perfomance rather than detail. The objects are custom-made or altered as to show lore of the game.",
+        "animation": "Animation",
+        "animationText": "This time, the animations (besides the cutscenes) are mostly programmed as to adapt to the ground and movement the player does.",
+        "multiplayer": "Multiplayer",
+        "multiplayerText": "I made an old-style co-op system. Similar to halo, gears of war and other xbox 360 games, the player can choose to play local, online or both styles of co-op at the same time. Meaning all the game runs with network-based code. The multiplayer is smoothly integrated into the game, from the moment the player clicks on 'Play', he is already online. Any friend can join him or simply going to the local section (where the TVs) are he can connect another controller and play with keyboard and controllers as 2 separate players.",
+        "bossFight": "Boss Fight",
+        "bossFightText": "The boss fights are the climax of each section of the game. As this is a demo, it has only 2 bosses for now. Bosses have a better AI than normal enemies, helping them feel like real player only with different stats. In this case, the player really needs to watch for where they are instead of focusing on many enemies at the same time."
+    },
     "Bakutara Bokaam": {
         "title": "Bakutara Bokaam!!",
         "description": "This is the first game I created while leading a team. I also guided others to work on the game. It's a free and simple game made in 2 weeks, but the assets are sold separately. @Randamu3dModels handled the 3D models for Bakutara, @bigscaryindian was responsible for the game's music, and I handled everything else. This was a project based on the idea of creating something playable from start to finish, and it can be played online.",

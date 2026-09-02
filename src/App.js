@@ -7,6 +7,7 @@ import BrokenBones from './Block/Broken Bones/Broken Bones';
 import MultiplayerProject from './Block/Muliplayer Project/Multiplayer Project';
 import TaikoNoTatsujin from './Block/Taiko No Tatsujin/Taiko No Tatsujin';
 import SPrysmDestroyer from './Block/S Prysm Destroyer/S Prysm Destroyer';
+import MaidSupremacy from './Block/Maid Supremacy/Maid Supremacy';
 import { useTranslation } from 'react-i18next';
 import i18n from 'i18next';
 import { useEffect } from 'react';
@@ -63,7 +64,8 @@ function App() {
       <ul id='dropdown1' className='dropdown-content'>
           <li><a href="#!" onClick={() => i18n.changeLanguage('en')}>English</a></li>
           <li><a href="#!" onClick={() => i18n.changeLanguage('jp')}>日本語</a></li>
-        </ul>
+      </ul>
+      <MaidSupremacy />
       <DateABulletBlock />
       <SPrysmDestroyer />
       <BakutaraBokaam />

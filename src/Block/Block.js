@@ -60,7 +60,7 @@ const Block = (props) => {
         animate="visible"
         transition={{duration: 0.5, ease: 'circOut'}}>
     <div className="row">
-        <div className='col card' style={{...backgroundStyle, padding: 0, width:"100%"}}>
+        <div className={'col card ' + (!isExpanded ? 'collapsed-card' : '')} style={{...backgroundStyle, padding: 0, width:"100%"}}>
             <div className='block'>
                 <div className="card-image col l4 s12">
                     <img src={props.image} alt='' />
