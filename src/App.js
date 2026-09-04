@@ -65,7 +65,8 @@ function App() {
           ))}
         </div>
         <p className='seo-summary'>{t('seoSummary')}</p>
-        <h5>Contact me: maidswithguns@gmail.com</h5>
+        <h5>Contact me: contact@maidswithguns.com</h5>
+        <p className='backup-contact'>Backup contact: maidswithguns@gmail.com</p>
       </div>
 
       <ul id='dropdown1' className='dropdown-content'>
