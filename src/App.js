@@ -58,6 +58,13 @@ function App() {
           <button className='dropdown-trigger btn' data-target='dropdown1'>Select Language</button>
         </div>
         <h4><b>{t('welcomeMessage')}</b></h4>
+        <p className='freelance-intro'>{t('freelanceIntro')}</p>
+        <div className='service-tags' aria-label='Freelance game development services'>
+          {t('serviceTags', { returnObjects: true }).map((tag) => (
+            <span key={tag}>{tag}</span>
+          ))}
+        </div>
+        <p className='seo-summary'>{t('seoSummary')}</p>
         <h5>Contact me: maidswithguns@gmail.com</h5>
       </div>
 
